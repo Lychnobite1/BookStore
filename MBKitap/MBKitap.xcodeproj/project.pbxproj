@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0159F62A8950EA00E77F3C /* SiparisFiyatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0159F52A8950EA00E77F3C /* SiparisFiyatView.swift */; };
+		4F15390C2A88E11500EEC292 /* KategoriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F15390B2A88E11500EEC292 /* KategoriView.swift */; };
+		4F15390E2A88E55D00EEC292 /* KitapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F15390D2A88E55D00EEC292 /* KitapView.swift */; };
+		4F3428942A88C31700DFF1A8 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3428932A88C31700DFF1A8 /* LogoView.swift */; };
+		4F3428962A88C8FE00DFF1A8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3428952A88C8FE00DFF1A8 /* HeaderView.swift */; };
+		4F3428982A88C9A600DFF1A8 /* KategoriButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3428972A88C9A600DFF1A8 /* KategoriButtonView.swift */; };
+		4F5E368C2A8A0B9C00D2D827 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E368B2A8A0B9C00D2D827 /* LoginModel.swift */; };
+		4F5E368E2A8A1BC000D2D827 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E368D2A8A1BC000D2D827 /* RegisterView.swift */; };
+		4F5E36902A8A380A00D2D827 /* progressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E368F2A8A380A00D2D827 /* progressView.swift */; };
+		4FA8F1362A892F43004C4733 /* KitapDetayCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA8F1352A892F43004C4733 /* KitapDetayCellView.swift */; };
+		4FC9FEAE2A8943B600F17A43 /* SepeteEkleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9FEAD2A8943B600F17A43 /* SepeteEkleCellView.swift */; };
+		4FC9FEB02A8944EB00F17A43 /* SepeteEkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9FEAF2A8944EB00F17A43 /* SepeteEkleView.swift */; };
+		4FC9FEB22A89453100F17A43 /* SepetEkleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9FEB12A89453100F17A43 /* SepetEkleModel.swift */; };
+		4FC9FEB42A89488B00F17A43 /* EmptyShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9FEB32A89488B00F17A43 /* EmptyShowView.swift */; };
+		4FF5163D2A881F1900744D29 /* MBKitapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5163C2A881F1900744D29 /* MBKitapApp.swift */; };
+		4FF5163F2A881F1900744D29 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5163E2A881F1900744D29 /* LoginView.swift */; };
+		4FF516412A881F1A00744D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF516402A881F1A00744D29 /* Assets.xcassets */; };
+		4FF516442A881F1A00744D29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF516432A881F1A00744D29 /* Preview Assets.xcassets */; };
+		4FF5164C2A881F9C00744D29 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4FF5164B2A881F9C00744D29 /* FirebaseAuth */; };
+		4FF5164E2A881F9C00744D29 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4FF5164D2A881F9C00744D29 /* FirebaseFirestore */; };
+		4FF516502A88207000744D29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FF5164F2A88207000744D29 /* GoogleService-Info.plist */; };
+		4FF516542A8820CB00744D29 /* kitapmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF516532A8820CB00744D29 /* kitapmodel.swift */; };
+		4FF516562A88212000744D29 /* kategorimodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF516552A88212000744D29 /* kategorimodel.swift */; };
+		4FF516592A88223A00744D29 /* KitapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF516582A88223A00744D29 /* KitapData.swift */; };
+		4FF5165B2A88315700744D29 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5165A2A88315700744D29 /* MainView.swift */; };
+		4FF5165D2A8831E900744D29 /* KitapCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5165C2A8831E900744D29 /* KitapCellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F0159F52A8950EA00E77F3C /* SiparisFiyatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiparisFiyatView.swift; sourceTree = "<group>"; };
+		4F15390B2A88E11500EEC292 /* KategoriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriView.swift; sourceTree = "<group>"; };
+		4F15390D2A88E55D00EEC292 /* KitapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitapView.swift; sourceTree = "<group>"; };
+		4F3428932A88C31700DFF1A8 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		4F3428952A88C8FE00DFF1A8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4F3428972A88C9A600DFF1A8 /* KategoriButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriButtonView.swift; sourceTree = "<group>"; };
+		4F5E368B2A8A0B9C00D2D827 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		4F5E368D2A8A1BC000D2D827 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4F5E368F2A8A380A00D2D827 /* progressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressView.swift; sourceTree = "<group>"; };
+		4FA8F1352A892F43004C4733 /* KitapDetayCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitapDetayCellView.swift; sourceTree = "<group>"; };
+		4FC9FEAD2A8943B600F17A43 /* SepeteEkleCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepeteEkleCellView.swift; sourceTree = "<group>"; };
+		4FC9FEAF2A8944EB00F17A43 /* SepeteEkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepeteEkleView.swift; sourceTree = "<group>"; };
+		4FC9FEB12A89453100F17A43 /* SepetEkleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetEkleModel.swift; sourceTree = "<group>"; };
+		4FC9FEB32A89488B00F17A43 /* EmptyShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyShowView.swift; sourceTree = "<group>"; };
+		4FF516392A881F1900744D29 /* MBKitap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBKitap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF5163C2A881F1900744D29 /* MBKitapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBKitapApp.swift; sourceTree = "<group>"; };
+		4FF5163E2A881F1900744D29 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4FF516402A881F1A00744D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FF516432A881F1A00744D29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FF5164F2A88207000744D29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4FF516532A8820CB00744D29 /* kitapmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitapmodel.swift; sourceTree = "<group>"; };
+		4FF516552A88212000744D29 /* kategorimodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kategorimodel.swift; sourceTree = "<group>"; };
+		4FF516582A88223A00744D29 /* KitapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitapData.swift; sourceTree = "<group>"; };
+		4FF5165A2A88315700744D29 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4FF5165C2A8831E900744D29 /* KitapCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitapCellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FF516362A881F1900744D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF5164C2A881F9C00744D29 /* FirebaseAuth in Frameworks */,
+				4FF5164E2A881F9C00744D29 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FF516302A881F1900744D29 = {
+			isa = PBXGroup;
+			children = (
+				4FF5163B2A881F1900744D29 /* MBKitap */,
+				4FF5163A2A881F1900744D29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FF5163A2A881F1900744D29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FF516392A881F1900744D29 /* MBKitap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FF5163B2A881F1900744D29 /* MBKitap */ = {
+			isa = PBXGroup;
+			children = (
+				4FF516572A88222800744D29 /* Data */,
+				4FF516522A8820B500744D29 /* Views */,
+				4FF516512A8820AB00744D29 /* Model */,
+				4FF5163C2A881F1900744D29 /* MBKitapApp.swift */,
+				4FF5164F2A88207000744D29 /* GoogleService-Info.plist */,
+				4FF516402A881F1A00744D29 /* Assets.xcassets */,
+				4FF516422A881F1A00744D29 /* Preview Content */,
+				4F5E368F2A8A380A00D2D827 /* progressView.swift */,
+			);
+			path = MBKitap;
+			sourceTree = "<group>";
+		};
+		4FF516422A881F1A00744D29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4FF516432A881F1A00744D29 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FF516512A8820AB00744D29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FF516532A8820CB00744D29 /* kitapmodel.swift */,
+				4FF516552A88212000744D29 /* kategorimodel.swift */,
+				4FC9FEB12A89453100F17A43 /* SepetEkleModel.swift */,
+				4F5E368B2A8A0B9C00D2D827 /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FF516522A8820B500744D29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FF5163E2A881F1900744D29 /* LoginView.swift */,
+				4FF5165A2A88315700744D29 /* MainView.swift */,
+				4FF5165C2A8831E900744D29 /* KitapCellView.swift */,
+				4F3428932A88C31700DFF1A8 /* LogoView.swift */,
+				4F3428952A88C8FE00DFF1A8 /* HeaderView.swift */,
+				4F3428972A88C9A600DFF1A8 /* KategoriButtonView.swift */,
+				4F15390B2A88E11500EEC292 /* KategoriView.swift */,
+				4F15390D2A88E55D00EEC292 /* KitapView.swift */,
+				4FA8F1352A892F43004C4733 /* KitapDetayCellView.swift */,
+				4FC9FEAD2A8943B600F17A43 /* SepeteEkleCellView.swift */,
+				4FC9FEAF2A8944EB00F17A43 /* SepeteEkleView.swift */,
+				4FC9FEB32A89488B00F17A43 /* EmptyShowView.swift */,
+				4F0159F52A8950EA00E77F3C /* SiparisFiyatView.swift */,
+				4F5E368D2A8A1BC000D2D827 /* RegisterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4FF516572A88222800744D29 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4FF516582A88223A00744D29 /* KitapData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FF516382A881F1900744D29 /* MBKitap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF516472A881F1A00744D29 /* Build configuration list for PBXNativeTarget "MBKitap" */;
+			buildPhases = (
+				4FF516352A881F1900744D29 /* Sources */,
+				4FF516362A881F1900744D29 /* Frameworks */,
+				4FF516372A881F1900744D29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBKitap;
+			packageProductDependencies = (
+				4FF5164B2A881F9C00744D29 /* FirebaseAuth */,
+				4FF5164D2A881F9C00744D29 /* FirebaseFirestore */,
+			);
+			productName = MBKitap;
+			productReference = 4FF516392A881F1900744D29 /* MBKitap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FF516312A881F1900744D29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4FF516382A881F1900744D29 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 4FF516342A881F1900744D29 /* Build configuration list for PBXProject "MBKitap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FF516302A881F1900744D29;
+			packageReferences = (
+				4FF5164A2A881F9C00744D29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 4FF5163A2A881F1900744D29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FF516382A881F1900744D29 /* MBKitap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FF516372A881F1900744D29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF516502A88207000744D29 /* GoogleService-Info.plist in Resources */,
+				4FF516442A881F1A00744D29 /* Preview Assets.xcassets in Resources */,
+				4FF516412A881F1A00744D29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FF516352A881F1900744D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF5163F2A881F1900744D29 /* LoginView.swift in Sources */,
+				4F5E368E2A8A1BC000D2D827 /* RegisterView.swift in Sources */,
+				4F5E368C2A8A0B9C00D2D827 /* LoginModel.swift in Sources */,
+				4F3428962A88C8FE00DFF1A8 /* HeaderView.swift in Sources */,
+				4FC9FEB22A89453100F17A43 /* SepetEkleModel.swift in Sources */,
+				4FA8F1362A892F43004C4733 /* KitapDetayCellView.swift in Sources */,
+				4F15390E2A88E55D00EEC292 /* KitapView.swift in Sources */,
+				4FF5165D2A8831E900744D29 /* KitapCellView.swift in Sources */,
+				4FF5165B2A88315700744D29 /* MainView.swift in Sources */,
+				4FC9FEB42A89488B00F17A43 /* EmptyShowView.swift in Sources */,
+				4FC9FEB02A8944EB00F17A43 /* SepeteEkleView.swift in Sources */,
+				4FF516592A88223A00744D29 /* KitapData.swift in Sources */,
+				4FF516562A88212000744D29 /* kategorimodel.swift in Sources */,
+				4F3428942A88C31700DFF1A8 /* LogoView.swift in Sources */,
+				4F0159F62A8950EA00E77F3C /* SiparisFiyatView.swift in Sources */,
+				4F15390C2A88E11500EEC292 /* KategoriView.swift in Sources */,
+				4FF516542A8820CB00744D29 /* kitapmodel.swift in Sources */,
+				4F3428982A88C9A600DFF1A8 /* KategoriButtonView.swift in Sources */,
+				4FF5163D2A881F1900744D29 /* MBKitapApp.swift in Sources */,
+				4FC9FEAE2A8943B600F17A43 /* SepeteEkleCellView.swift in Sources */,
+				4F5E36902A8A380A00D2D827 /* progressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FF516452A881F1A00744D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FF516462A881F1A00744D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FF516482A881F1A00744D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MBKitap/Preview Content\"";
+				DEVELOPMENT_TEAM = 48AX6ZH633;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.MBKitap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FF516492A881F1A00744D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MBKitap/Preview Content\"";
+				DEVELOPMENT_TEAM = 48AX6ZH633;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.First.MBKitap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FF516342A881F1900744D29 /* Build configuration list for PBXProject "MBKitap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF516452A881F1A00744D29 /* Debug */,
+				4FF516462A881F1A00744D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF516472A881F1A00744D29 /* Build configuration list for PBXNativeTarget "MBKitap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF516482A881F1A00744D29 /* Debug */,
+				4FF516492A881F1A00744D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FF5164A2A881F9C00744D29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FF5164B2A881F9C00744D29 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FF5164A2A881F9C00744D29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4FF5164D2A881F9C00744D29 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FF5164A2A881F9C00744D29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4FF516312A881F1900744D29 /* Project object */;
+}
